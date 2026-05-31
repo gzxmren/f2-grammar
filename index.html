@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F2 English Grammar — 互動學習平台</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .unit-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin:24px 0; }
+    .unit-card {
+      background:#fff; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.1); padding:20px;
+      text-decoration:none; color:inherit; transition:transform 0.2s, box-shadow 0.2s; display:block;
+    }
+    .unit-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(0,0,0,0.15); }
+    .unit-num { font-size:0.8rem; color:#2563eb; font-weight:600; text-transform:uppercase; letter-spacing:1px; }
+    .unit-title { font-size:1.1rem; font-weight:700; margin:8px 0; color:#1e293b; }
+    .unit-desc { font-size:0.85rem; color:#64748b; line-height:1.5; }
+    .unit-links { display:flex; gap:16px; margin-top:12px; }
+    .unit-links span {
+      font-size:0.8rem; padding:4px 12px; border-radius:4px;
+      background:#eff6ff; color:#2563eb; font-weight:500;
+    }
+    .hero { text-align:center; padding:40px 0 20px; }
+    .hero h1 { font-size:2rem; border:none; padding:0; margin-bottom:12px; }
+    .hero p { color:#64748b; font-size:1rem; max-width:600px; margin:0 auto; }
+    .card-links { display:flex; gap:8px; margin-top:12px; }
+    .card-links a {
+      display:inline-block; padding:6px 14px; border-radius:6px; text-decoration:none;
+      font-size:0.85rem; font-weight:500; transition:all 0.2s;
+    }
+    .card-links a.study { background:#2563eb; color:#fff; }
+    .card-links a.test { background:#16a34a; color:#fff; }
+    .card-links a:hover { opacity:0.85; }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <div class="top-nav-inner">
+    <a href="index.html" class="logo">📚 Grammar <span>F2</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">首頁</a></li>
+      <li><a href="unit1_study.html">U1</a></li>
+      <li><a href="unit1_test.html">U1測</a></li>
+      <li><a href="unit2_study.html">U2</a></li>
+      <li><a href="unit2_test.html">U2測</a></li>
+      <li><a href="unit3_study.html">U3</a></li>
+      <li><a href="unit3_test.html">U3測</a></li>
+      <li><a href="unit4_study.html">U4</a></li>
+      <li><a href="unit4_test.html">U4測</a></li>
+      <li><a href="unit5_study.html">U5</a></li>
+      <li><a href="unit5_test.html">U5測</a></li>
+      <li><a href="unit6_review.html">U6</a></li>
+      <li><a href="unit7_study.html">U7</a></li>
+      <li><a href="unit7_test.html">U7測</a></li>
+      <li><a href="unit8_study.html">U8</a></li>
+      <li><a href="unit8_test.html">U8測</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="hero">
+    <h1>📖 F2 English Grammar</h1>
+    <p>香港中二英語語法互動學習平台 — 涵蓋 8 個 Units 的全部語法點，包含學習教材與互動測驗。</p>
+  </div>
+
+  <div class="unit-grid">
+
+    <div class="unit-card">
+      <div class="unit-num">Unit 1</div>
+      <div class="unit-title">Talking about the present</div>
+      <div class="unit-desc">Simple Present、Present Continuous、Stative Verbs、Verb 'have' 特殊用法</div>
+      <div class="card-links">
+        <a href="unit1_study.html" class="study">📖 學習</a>
+        <a href="unit1_test.html" class="test">✏️ 測驗</a>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <div class="unit-num">Unit 2</div>
+      <div class="unit-title">Talking about the past</div>
+      <div class="unit-desc">六大過去時態：Simple Past、Past Continuous、Present Perfect、Past Perfect 等</div>
+      <div class="card-links">
+        <a href="unit2_study.html" class="study">📖 學習</a>
+        <a href="unit2_test.html" class="test">✏️ 測驗</a>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <div class="unit-num">Unit 3</div>
+      <div class="unit-title">Talking about the future</div>
+      <div class="unit-desc">will、be going to、Present Continuous for future、Future Continuous、Future Perfect</div>
+      <div class="card-links">
+        <a href="unit3_study.html" class="study">📖 學習</a>
+        <a href="unit3_test.html" class="test">✏️ 測驗</a>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <div class="unit-num">Unit 4</div>
+      <div class="unit-title">The Passive</div>
+      <div class="unit-desc">被動語態、各時態被動結構、情態動詞被動式、have/get something done</div>
+      <div class="card-links">
+        <a href="unit4_study.html" class="study">📖 學習</a>
+        <a href="unit4_test.html" class="test">✏️ 測驗</a>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <div class="unit-num">Unit 5</div>
+      <div class="unit-title">Conditional Sentences</div>
+      <div class="unit-desc">四類條件句 Type 0-3、wish/if only、might have/could have/would have</div>
+      <div class="card-links">
+        <a href="unit5_study.html" class="study">📖 學習</a>
+        <a href="unit5_test.html" class="test">✏️ 測驗</a>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <div class="unit-num">Unit 6</div>
+      <div class="unit-title">Review Test 1</div>
+      <div class="unit-desc">Units 1-5 綜合複習測驗：涵蓋現在、過去、將來、被動語態和條件句</div>
+      <div class="card-links">
+        <a href="unit6_review.html" class="test">✏️ 綜合測驗</a>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <div class="unit-num">Unit 7</div>
+      <div class="unit-title">Verb + to-inf. & Gerund</div>
+      <div class="unit-desc">動詞後接不定式/動名詞、意義相近的動詞、意義改變的動詞</div>
+      <div class="card-links">
+        <a href="unit7_study.html" class="study">📖 學習</a>
+        <a href="unit7_test.html" class="test">✏️ 測驗</a>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <div class="unit-num">Unit 8</div>
+      <div class="unit-title">Adjective + to-infinitive</div>
+      <div class="unit-desc">It + be + adj + to V、too...to、enough to、of sb/for sb 區別</div>
+      <div class="card-links">
+        <a href="unit8_study.html" class="study">📖 學習</a>
+        <a href="unit8_test.html" class="test">✏️ 測驗</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>F2 English Grammar &copy; 互動學習平台 &mdash; 祝考試順利！🎯</p>
+</footer>
+
+</body>
+</html>
